@@ -50,7 +50,7 @@
 
     <dict>
       <key>name</key>
-      <string>subdued</string>
+      <string>Subdued</string>
       <key>scope</key>
       <string>
         source.css meta.function-call, 
@@ -93,7 +93,8 @@
         support.function,
         support.class, 
         support.type, 
-        entity.name
+        entity.name,
+        variable.function
       </string>
       <key>settings</key>
       <dict>
@@ -165,7 +166,8 @@
         source.js punctuation.separator,
         source.js punctuation.section.brackets.begin,
         source.js punctuation.section.brackets.end,
-        source.js keyword.control.js
+        source.js keyword.control.js,
+        source.js entity.name.type.instance.js
       </string>
       <key>settings</key>
       <dict>
