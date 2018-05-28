@@ -15,14 +15,24 @@
         <string>hsl(0,0%,10%)</string>
         <key>caret</key>
         <string>#FF4554</string>
+        <key>accent</key>
+        <string>#FF4554</string>
         <key>foreground</key>
         <string>#CCCCCC</string>
         <key>invisibles</key>
         <string>#525252</string>
         <key>lineHighlight</key>
-        <string>hsl(0,0%,8%)</string>
+        <string>hsl(0,0%,3%)</string>
         <key>selection</key>
         <string>hsla(0,0%,0%,0.5)</string>
+        <key>gutter</key>
+        <string>hsl(0,0%,10%)</string>
+        <key>gutter_foreground</key>
+        <string>hsl(0,0%,15%)</string>
+        <key>highlight</key>
+        <string>#00C3E3</string>
+        <key>find_highlight</key>
+        <string>#00C3E3</string>
       </dict>
     </dict>
 
@@ -58,14 +68,18 @@
         source.css punctuation.separator,
         source.css punctuation.section.property-list,
         source.css punctuation.section.property-list,
-        text.html.mt meta.tag.structure.any.html punctuation.definition.tag.html,
+        punctuation.definition.tag.begin,
+        punctuation.definition.tag.end,
         text.html.mt meta.tag.block.any.html punctuation.definition.tag.html,
         text.html.mt meta.tag.inline.any.html punctuation.definition.tag.html,
         text.html.mt meta.tag.any.html punctuation.definition.tag.html,
-        source.js punctuation.section.block.begin,
-        source.js punctuation.section.block.end,
-        source.js meta.function.js punctuation.definition.parameters.begin.js,
-        source.js punctuation.terminator,
+        punctuation.separator,
+        punctuation.section.block.begin,
+        punctuation.section.block.end,
+        punctuation.section.braces.begin,
+        punctuation.section.braces.end,
+        meta.function.js punctuation.definition.parameters.begin.js,
+        punctuation.terminator,
         punctuation.definition.string.begin,
         punctuation.definition.string.end
       </string>
