@@ -22,7 +22,7 @@
         <key>invisibles</key>
         <string>#525252</string>
         <key>lineHighlight</key>
-        <string>hsl(0,0%,3%)</string>
+        <string>hsl(0, 0%, 7%)</string>
         <key>selection</key>
         <string>hsla(0,0%,0%,0.5)</string>
         <key>gutter</key>
