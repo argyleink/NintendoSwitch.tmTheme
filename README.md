@@ -14,3 +14,7 @@
 4. Back in Sublime, select `Sublime Text / Color Schemes / THEMES / Nintendo Switch.tmTheme` to use it
 
 <img src="https://www.dropbox.com/s/ubn038cyli4qg22/Screen%20Shot%202018-05-26%20at%2010.04.35%20PM.png?raw=1"/>
+
+#### Best With
+- `"highlight_modified_tabs": true,`
+- `"theme": "Adaptive.sublime-theme",`
