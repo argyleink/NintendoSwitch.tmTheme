@@ -13,7 +13,11 @@
     - note: Any any custom themes you want can go here
 4. Back in Sublime, select `Sublime Text / Color Schemes / THEMES / Nintendo Switch.tmTheme` to use it
 
-<img src="https://www.dropbox.com/s/ubn038cyli4qg22/Screen%20Shot%202018-05-26%20at%2010.04.35%20PM.png?raw=1"/>
+<img src="https://www.dropbox.com/s/c9gcicjsi7lbby4/css.png?raw=1"/>
+<img src="https://www.dropbox.com/s/uz0atd5gwdpmshz/js.es6.png?raw=1"/>
+<img src="https://www.dropbox.com/s/zoojfusqwifmy5g/js_webpack.png?raw=1"/>
+<img src="https://www.dropbox.com/s/9cg2nx4glbfru7a/jade.png?raw=1"/>
+<img src="https://www.dropbox.com/s/f0hsjpsghf58qvs/html.png?raw=1"/>
 
 #### Best With
 - `"highlight_modified_tabs": true,`
