@@ -6,7 +6,12 @@
 - Subdued brackets and other characters you don't need to focus on
 - Easy to customize file
 
-#### Get Started
+#### Sublime Package Control
+You can install it using the excellent Package Control package manager for Sublime Text:
+
+Open "Package Control: Install Package" from the Sublime quick menu (Command-Shift-P), then select this Nintendo Switch theme.
+
+#### Customize For Yourself:
 1. Select `Sublime Text / Preferences / Browse Packages …`
 2. Create a folder called `THEMES`
 3. Add `Nintendo Switch.tmTheme` to `THEMES`
