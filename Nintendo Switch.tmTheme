@@ -63,7 +63,7 @@
       <string>Subdued</string>
       <key>scope</key>
       <string>
-        source.css meta.function-call, 
+        source.css meta.function-call,
         source.css punctuation.terminator.rule.css,
         source.css punctuation.separator,
         source.css punctuation.section.property-list,
@@ -74,14 +74,25 @@
         text.html.mt meta.tag.inline.any.html punctuation.definition.tag.html,
         text.html.mt meta.tag.any.html punctuation.definition.tag.html,
         punctuation.separator,
-        punctuation.section.block.begin,
-        punctuation.section.block.end,
         punctuation.section.braces.begin,
         punctuation.section.braces.end,
         meta.function.js punctuation.definition.parameters.begin.js,
         punctuation.terminator,
         punctuation.definition.string.begin,
-        punctuation.definition.string.end
+        punctuation.definition.string.end,
+        punctuation.definition.dictionary.end.json,
+        punctuation.definition.dictionary.begin.json,
+        punctuation.definition.array.end.json,
+        punctuation.definition.array.begin.json,
+        source.js punctuation.section.group.begin,
+        source.js punctuation.section.group.end,
+        punctuation.definition.tag.html,
+        meta.tag.block.any.html,
+        punctuation.definition.string.begin.html,
+        punctuation.definition.string.end.html,
+        meta.tag.inline.any.html,
+        punctuation.separator,
+        meta.tag.metadata.script.html
       </string>
       <key>settings</key>
       <dict>
@@ -140,12 +151,17 @@
         constant.language,
         keyword,
         storage,
-        support.class, 
-        support.type, 
+        support.class,
+        support.type,
         entity.name,
         source.css meta.selector.css entity.other.attribute-name.class.css punctuation.definition.entity.css,
         source.js meta.delimiter.method.period.js,
-        source.js punctuation.accessor
+        source.js punctuation.accessor,
+        entity.name.tag.inline.any.html,
+        entity.name.tag.structure.any.html,
+        entity.name.tag.block.any.html,
+        punctuation.definition.entity.begin.bracket.square.css,
+        punctuation.definition.entity.end.bracket.square.css
       </string>
       <key>settings</key>
       <dict>
@@ -159,29 +175,31 @@
       <string>Blue</string>
       <key>scope</key>
       <string>
-        variable.language, 
+        variable.language,
         variable.other,
-        entity.name.class, 
+        entity.name.class,
         entity.other.inherited-class,
-        variable.parameter, 
+        variable.parameter,
         source.js variable.language,
-        entity.name.tag,
         entity.other.attribute-name,
         support.function,
-        punctuation.definition.string.begin.html,
-        punctuation.definition.string.end.html,
         source.css meta.property-list.css meta.property-value.css constant.other.color.rgb-value.css punctuation.definition.constant.css,
         source.css meta.property-list.css meta.property-value.css keyword.other.unit.css,
         source.css punctuation.definition.keyword.css,
         source.css entity.other.pseudo-class.css,
         source.css punctuation.definition.entity.css,
-        source.js punctuation.section.group.begin,
-        source.js punctuation.section.group.end,
-        source.js punctuation.separator,
+        source.js keyword.control.js,
+        source.js entity.name.type.instance.js,
+        meta.structure.dictionary.json,
+        punctuation.separator.dictionary.key-value.json,
+        punctuation.separator.dictionary.pair.json,
+        support.type.property-name.css,
+        punctuation.definition.heading.markdown,
+        beginning.punctuation.definition.list.markdown,
         source.js punctuation.section.brackets.begin,
         source.js punctuation.section.brackets.end,
-        source.js keyword.control.js,
-        source.js entity.name.type.instance.js
+        punctuation.section.block.begin,
+        punctuation.section.block.end
       </string>
       <key>settings</key>
       <dict>
