@@ -92,7 +92,10 @@
         punctuation.definition.string.end.html,
         meta.tag.inline.any.html,
         punctuation.separator,
-        meta.tag.metadata.script.html
+        meta.tag.metadata.script.html,
+        args.mixin.jade,
+        constant.name.attribute.tag.jade,
+        text.jade meta.tag.other
       </string>
       <key>settings</key>
       <dict>
